@@ -34,7 +34,7 @@ body{
     right: 0;
     top: 0;
     display: block;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/kb/img/header/header-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/whykrabi.github.io/img/header/header-bg.jpg");
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
