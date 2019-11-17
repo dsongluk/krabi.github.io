@@ -171,7 +171,7 @@ section.content .content_item .content_text_six span {
   font-size: 28px;
 }
 
-section.content .content_item .fa-chevron-circle-right {
+section.content .content_item .fas {
   top: 87%;
   right: 6%;
   position: absolute;
