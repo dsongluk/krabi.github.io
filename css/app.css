@@ -6,7 +6,7 @@
 }
 .appSection {
   padding-top: 70px;
-  background: #fff;
+  background: url(../img/app/app-bg.jpg);
   background-size: cover;
   height: 100vh;
 }
@@ -26,7 +26,7 @@
 .heading-box h1{
   font-size: 40px;
   margin: 0;
-  color: #182140;
+  color: #fff;
 }
 .app-btn img {
     width: 22px;
@@ -95,9 +95,9 @@
   opacity: .4;
 }
 .typed {
-    color: #ff7675;
+    color: #5ad67d;
 }
 p {
   font-size: 18px;
-  color: #333;
+  color: #fff;
 }

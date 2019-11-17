@@ -24,7 +24,7 @@ nav {
 }
 
 nav .nav-gird-container {
-  width: 1140px;
+  max-width: 1140px;
   height: 80px;
   margin: 0 auto;
   display: -ms-grid;
@@ -102,7 +102,7 @@ section.content {
 }
 
 section.content .content__area {
-  width: 1140px;
+  max-width: 1140px;
   height: auto;
   position: relative;
   margin: 0 auto;
@@ -112,8 +112,8 @@ section.content .content-grid-container {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (370px)[3];
-      grid-template-columns: repeat(3, 370px);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (350px)[2];
       grid-template-rows: repeat(2, 350px);
   grid-gap: 1.5em;
@@ -277,7 +277,7 @@ section.blog_content .blog_card-gird-container .card-grid-item {
 }
 
 section.blog_content .blog_card-gird-container .photo {
-  background: url("/whykrabi.github.io/img/location/card-1.jpg");
+  background: url("/whykrabi.github.io/img/location/card-2.jpg");
   width: 100%;
   height: 45%;
   background-size: cover;
@@ -392,12 +392,12 @@ section.blog_content .blog_card-gird-container .news button {
   border: none;
   color: #fff;
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kanit', sans-serif;
   outline: none;
 }
 
 section.blog_content .blog_card-gird-container .news button:hover {
   cursor: pointer;
-  background: #FF5274;
+  background: #5ad67d;
 }
 /*# sourceMappingURL=style.css.map */
