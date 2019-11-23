@@ -10,7 +10,8 @@ body {
 }
 
 .fb-customerchat {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 /* =========================================== Heading =========================================== */
