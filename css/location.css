@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* =========================================== sramorakod.html =========================================== */
+/* ===================================== Header ===================================== */
+.location-1 {
+    background: url(../img/location/card-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+/* ===================================== Section-content ===================================== */
+.location-content {
+    background: #e3e7e8;
+}
+.sramorakod-container {
+    min-width: 480px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 25px;
+    
+}
+
+p {
+    color: #333;
+    margin-top: 15px ;
+    padding: 20px 0;
+    font-size: 18px;
+    text-align: center;
+    text-align: justify;
+}
+h2 {
+    margin-top: 20px;
+}
+.photo {
+    text-align: center;
+    margin-top: 50px;
+}
+.photo img {
+    width: 100%;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .sramorakod-container {
+        min-width: 768px;
+        height: auto;
+        margin: 0 auto;
+        background: #e3e7e8;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 0 25px;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sramorakod-container {
+        max-width: 1140px;
+        height: auto;
+        margin: 0 auto;
+        background: #e3e7e8;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 0 25px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    
+}

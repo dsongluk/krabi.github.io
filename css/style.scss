@@ -345,6 +345,10 @@ section.blog_content {
                     background: $color_prim;
                 }
             }
+            button a {
+                text-decoration: none;
+                color: $color_white;
+            }
         }  
     }
 /* ===================================== tablet ===================================== */
@@ -367,6 +371,5 @@ section.blog_content {
             grid-gap: 1.5em;
         }
     }
-}
-
+} /* end blog_content */
 
