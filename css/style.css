@@ -9,6 +9,10 @@ body {
   font-family: 'Kanit', sans-serif;
 }
 
+.fb-customerchat {
+  position: fixed;
+}
+
 /* =========================================== Heading =========================================== */
 /* ===================================== nav-grid-container ===================================== */
 .nav-grid-container {
