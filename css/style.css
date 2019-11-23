@@ -147,21 +147,22 @@ section.content {
   /* ===================================== Desktop ===================================== */
   /* content-grid-container */
   /* ===================================== tablet ===================================== */
+  /* ===================================== tablet ===================================== */
   /* ===================================== Desktop ===================================== */
 }
 
 section.content .content-grid-container {
-  min-width: 480px;
+  min-width: 320px;
   width: 100%;
   height: auto;
   position: relative;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (400px)[1];
-      grid-template-columns: repeat(1, 400px);
-  -ms-grid-rows: (350px)[6];
-      grid-template-rows: repeat(6, 350px);
+  -ms-grid-columns: (300px)[1];
+      grid-template-columns: repeat(1, 300px);
+  -ms-grid-rows: (250px)[6];
+      grid-template-rows: repeat(6, 250px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -273,8 +274,19 @@ section.content .content-grid-container .content_item:hover .fas {
           transform: translate(-50%, 0%);
 }
 
+@media screen and (min-width: 480px) {
+  section.content .content-grid-container {
+    width: 100%;
+    -ms-grid-columns: (400px)[1];
+        grid-template-columns: repeat(1, 400px);
+    -ms-grid-rows: (350px)[6];
+        grid-template-rows: repeat(6, 350px);
+  }
+}
+
 @media screen and (min-width: 768px) {
   section.content .content-grid-container {
+    width: 100%;
     margin: 0 auto;
     -ms-grid-columns: (410px)[2];
         grid-template-columns: repeat(2, 410px);
@@ -286,6 +298,7 @@ section.content .content-grid-container .content_item:hover .fas {
 @media screen and (min-width: 1024px) {
   section.content .content-grid-container {
     max-width: 1140px;
+    width: 100%;
     -ms-grid-columns: (410px)[3];
         grid-template-columns: repeat(3, 410px);
     -ms-grid-rows: (350px)[2];
@@ -442,6 +455,7 @@ section.blog_content .blog_card-gird-container .news button a {
 
 @media screen and (min-width: 768px) {
   section.blog_content .blog_card-gird-container {
+    width: 100%;
     margin: 0 auto;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
@@ -454,6 +468,7 @@ section.blog_content .blog_card-gird-container .news button a {
 @media screen and (min-width: 1024px) {
   section.blog_content .blog_card-gird-container {
     max-width: 1140px;
+    width: 100%;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: (1fr)[2];

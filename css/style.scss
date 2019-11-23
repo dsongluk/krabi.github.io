@@ -124,14 +124,14 @@ section.content {
 /* ===================================== content-grid-container ===================================== */
  /* ===================================== Desktop ===================================== */
     .content-grid-container {
-        min-width: 480px;
+        min-width: 320px;
         width: 100%;
         height: auto;
         position: relative;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(1, 400px);
-        grid-template-rows: repeat(6, 350px);
+        grid-template-columns: repeat(1, 300px);
+        grid-template-rows: repeat(6, 250px);
         justify-content: center;
         grid-gap: 1.5em;
 
@@ -216,8 +216,18 @@ section.content {
     } /* content-grid-container */
 
 /* ===================================== tablet ===================================== */
+@media screen and (min-width: 480px){
+    .content-grid-container {
+        width: 100%;
+        grid-template-columns: repeat(1, 400px);
+        grid-template-rows: repeat(6, 350px);
+        
+    }
+}
+/* ===================================== tablet ===================================== */
 @media screen and (min-width: 768px){
     .content-grid-container {
+        width: 100%;
         margin: 0 auto;
         grid-template-columns: repeat(2, 410px);
         grid-template-rows: repeat(3, 350px);
@@ -228,6 +238,7 @@ section.content {
 @media screen and (min-width: 1024px){
     .content-grid-container {
         max-width: 1140px;
+        width: 100%;
         grid-template-columns: repeat(3, 410px);
         grid-template-rows: repeat(2, 350px);
     }
@@ -358,6 +369,7 @@ section.blog_content {
 /* ===================================== tablet ===================================== */
     @media screen and (min-width: 768px){
         .blog_card-gird-container {
+            width: 100%;
             margin: 0 auto;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(15, 1fr);
@@ -370,6 +382,7 @@ section.blog_content {
     @media screen and (min-width: 1024px){
         .blog_card-gird-container {
             max-width: 1140px;
+            width: 100%;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 1fr);
             grid-gap: 1.5em;
