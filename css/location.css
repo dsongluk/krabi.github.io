@@ -12,6 +12,13 @@
     width: 100%;
     height: 800px;
 }
+/* =========================================== thalewaek.html =========================================== */
+.location-2 {
+    background: url(../img/location/card-2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
 /* ===================================== Section-content ===================================== */
 .location-content {
     background: #e3e7e8;
