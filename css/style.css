@@ -309,10 +309,10 @@ section.content .content-grid-container .content_item:hover .fas {
 /* end section.content */
 /* =========================================== location.html =========================================== */
 .heading {
-  background: url("/whykrabi.github.io/img/location/header-bg.jpg");
+  background: url("/whykrabi.github.io/img/location/header-bg.jpg") no-repeat;
+  background-size: cover;
   width: 100%;
   height: 800px;
-  background-size: cover;
 }
 
 /* blog_content
