@@ -159,10 +159,10 @@ section.content .content-grid-container {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (300px)[1];
-      grid-template-columns: repeat(1, 300px);
-  -ms-grid-rows: (250px)[6];
-      grid-template-rows: repeat(6, 250px);
+  -ms-grid-columns: (350px)[1];
+      grid-template-columns: repeat(1, 350px);
+  -ms-grid-rows: (300px)[6];
+      grid-template-rows: repeat(6, 300px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -309,10 +309,11 @@ section.content .content-grid-container .content_item:hover .fas {
 /* end section.content */
 /* =========================================== location.html =========================================== */
 .heading {
-  background: url("/whykrabi.github.io/img/location/header-bg.jpg") no-repeat;
+  background: url(../img/location/header-bg.jpg) no-repeat;
   background-size: cover;
+  background-position: center 0;
   width: 100%;
-  height: 800px;
+  height: 500px;
 }
 
 /* blog_content
@@ -465,7 +466,7 @@ section.blog_content .blog_card-gird-container .news button a {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 960px) {
   section.blog_content .blog_card-gird-container {
     max-width: 1140px;
     width: 100%;
