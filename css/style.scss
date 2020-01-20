@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 $color_black: #121212;
 $color_white: #fff;
 $color_red: #e90014;
@@ -12,6 +27,7 @@ $color_prim: #5ad67d;
 
 body {
     font-family: 'Kanit', sans-serif;
+    background-color: #e3e7e8;
 }
 
 .fb-customerchat {
@@ -247,15 +263,20 @@ section.content {
 
 
 /* =========================================== location.html =========================================== */
-.heading {
-    background: url(../img/location/header-bg.jpg) no-repeat;
+.location {
+    background: url(../img/header/location-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center 0;
     width: 100%;
     height: 500px;
-    
 }
-
+.hostel {
+    background: url(../img/header/hotel-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    width: 100%;
+    height: 500px;
+}
 /* blog_content
 ====================================================================== */
 section.blog_content {
@@ -391,4 +412,66 @@ section.blog_content {
     }
 } /* end blog_content */
 
+/* =========================================== hostel.html =========================================== */
+/* PAGE WRAPPER */
+.page-wrapper a:hover {
+    color: $color_hover;
+}
 
+/* POST SLIDER */
+.post-slider {
+    position: relative;
+}
+
+.post-slider .slider-title {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.post-slider .next {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 2em;
+    color: #006669;
+    cursor: pointer;
+}
+
+.post-slider .prev {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2em;
+    color: #006669;
+    cursor: pointer;
+}
+
+.post-slider .post-wrapper{
+    width: 84%;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0 10px 0;
+}
+
+.post-slider .post-wrapper .post {
+    width: 300px;
+    height: 350px;
+    margin: 0 10px;
+    display: inline-block;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 1rem  -1rem #a0a0a033;
+}
+
+.post-slider .post-wrapper .post .post-info {
+    height: 130px;
+    padding: 0 5px;
+}
+
+.post-slider .post-wrapper .post .slider-img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

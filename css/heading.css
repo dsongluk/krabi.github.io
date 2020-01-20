@@ -3,14 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* ========================= location.html ========================= */
 @media screen and (min-width: 768px) {
-    .heading {
+    .location  {
         height: 800px
     }
 }
 @media screen and (min-width: 960px) {
-    .heading {
+    .location  {
+        height: 800px
+    }
+}
+/* ========================= hostel.html ========================= */
+@media screen and (min-width: 768px) {
+    .hostel  {
+        height: 800px
+    }
+}
+@media screen and (min-width: 960px) {
+    .hostel  {
         height: 800px
     }
 }
